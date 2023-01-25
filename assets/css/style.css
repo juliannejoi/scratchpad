@@ -4,6 +4,22 @@
   --color2: #612911;
   --color3: #AD3D0E;
 }
+
 nav #headerCSS{
   background-color: var(--color1);
+}
+
+header, .search-container {
+  text-align: center;
+  background: var(--color2);
+  color: #fff;
+}
+
+.search-result {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  flex: 0 0 400px;
+  background-color: var(--color1)
 }
